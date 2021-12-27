@@ -1,0 +1,160 @@
+*{
+    /* background: #110b0b; */
+   
+}
+body,html{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: url("https://gifimage.net/wp-content/uploads/2017/06/stars-gif-2.gif");
+}
+
+.star{
+    margin-left: 25%;
+    margin-top: 7%;
+   
+  
+   
+}
+.star_logo{
+   margin-left: 14%;
+}
+
+.star_logo--img{
+    height: 40%;
+    width: 50%;
+}
+
+.star_search_input{
+    height: 70px;
+    width: 70%;
+    background: #2d2f30;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #2d2f30;
+    margin-top: 3%;
+    
+   border-radius: 15px;
+    text-align: center;
+}
+input{
+    height: 40px;
+    width: 85%;
+    font-size: 25px;
+    background:transparent;
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+    margin-top: 2%;
+    border: 1px solid #2d2f30;
+    
+}
+input:focus-visible{
+    border: none;
+}
+.star_search_logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-top: 1.5%;
+        margin-left: 0.5%;
+        
+}
+.star_search--img{
+    width:65% ;
+    height: 65%;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 20%;
+    background-color: transparent;
+    
+   
+
+}
+
+.display{
+    height: 500px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.box1{
+    height: 400px;
+    width: 50%;
+    border: 2px solid yellow;
+    text-align: center;
+    border-radius: 5%;
+    /* color: yellow; */
+    font-size: 29px;
+    font-weight:800;
+}
+.box2{
+    height: 400px;
+    width: 50%;
+    border: 2px solid yellow;
+    border-radius: 5%;
+    text-align: center;
+    color: yellow;
+    font-size: 29px;
+    font-weight:800;
+    
+}
+.boxes{
+    display: flex; 
+    flex-direction: row; 
+    gap: 5%
+}
+.btn{
+    margin-left: 35%;
+   
+   
+   
+}
+.btn button{
+    height: 70px;
+    width: 250px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight:900;
+    color: yellow;
+    background: transparent;
+    
+
+}
+#check{
+    display: none;
+}
+#movies {
+    width: 50%;
+    margin-left:1%;
+    float: left;
+    height: 50%;
+    overflow: scroll;
+    display: none;
+   color: white;
+   position: fixed;
+  
+  
+ 
+ }
+ #sound{
+     display: none;
+ }
+
+ .mt{
+     height: 70px;
+     width: 70px;
+     background: transparent;
+ }
+ .img_sound{
+     height: 90%;
+     width: 90%;
+     background: transparent;
+ }
+ .music{
+     background: transparent;
+     margin-left: 90%;
+     position: fixed;
+ }

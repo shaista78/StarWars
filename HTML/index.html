@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STARWARS</title>
+    <link rel="stylesheet" href="../CSS//style.css" />
+  </head>
+  <body>
+    <div class="music">
+      <button class="mt" onclick="unmute()" id="mute">
+        <img class="img_sound" src="./imgs//mute.svg" alt="mute" />
+      </button>
+      <button class="mt" onclick="mute()" id="sound">
+        <img class="img_sound" src="./imgs/sound.svg" alt="unmute" />
+      </button>
+      <audio
+        id="audio"
+        src="https://ia803204.us.archive.org/16/items/StarWarsThemeSongByJohnWilliams/Star%20Wars%20Theme%20Song%20By%20John%20Williams.mp3
+      "
+      ></audio>
+    </div>
+    <div class="star" id="main">
+      <div class="star_logo">
+        <img class="star_logo--img" src="./imgs//star.png" alt="logo_1" />
+      </div>
+
+      <div class="star_search_input">
+        <input
+          class="inp"
+          type="text"
+          oninput="debounce(main,1000)"
+          id="query"
+          placeholder="Search characters"
+        />
+        <div class="star_search_logo">
+          <img class="star_search--img" src="./imgs//search.png" alt="icon" />
+        </div>
+      </div>
+      <div id="movies"></div>
+      <!-- <button onclick="change1()">check</button> -->
+    </div>
+    <div class="display" id="check">
+      <div class="boxes">
+        <div class="box1" id="bx1">
+          <h2>Personal Info</h2>
+
+          <h3 id="a1"></h3>
+          <h3 id="a2"></h3>
+          <h3 id="a3"></h3>
+        </div>
+        <div class="box2">
+          <h2>Anatomy</h2>
+          <h3 id="b1"></h3>
+          <h3 id="b2"></h3>
+          <h3 id="b3"></h3>
+        </div>
+      </div>
+      <br /><br />
+      <div class="btn">
+        <button onclick="change()">Go BACK</button>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="../JS/scripts.js"></script>
