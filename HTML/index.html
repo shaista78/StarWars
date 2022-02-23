@@ -9,12 +9,12 @@
   </head>
   <body>
     <div class="music">
-      <button class="mt" onclick="unmute()" id="mute">
+      <div class="mt" onclick="unmute()" id="mute">
         <img class="img_sound" src="./imgs//mute.svg" alt="mute" />
-      </button>
-      <button class="mt" onclick="mute()" id="sound">
+      </div>
+      <div class="mt" onclick="mute()" id="sound">
         <img class="img_sound" src="./imgs/sound.svg" alt="unmute" />
-      </button>
+      </div>
       <audio
         id="audio"
         src="https://ia803204.us.archive.org/16/items/StarWarsThemeSongByJohnWilliams/Star%20Wars%20Theme%20Song%20By%20John%20Williams.mp3
@@ -30,7 +30,7 @@
         <input
           class="inp"
           type="text"
-          oninput="debounce(main,1000)"
+          oninput="debounce(main,500)"
           id="query"
           placeholder="Search characters"
         />

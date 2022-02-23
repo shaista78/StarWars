@@ -62,7 +62,7 @@ bx1.onmouseout.style.color="yellow";
 
 var timerId;
 
-let movies_div=document.getElementById("movies");
+
 
 async function searchMovies(n){
 
@@ -102,7 +102,7 @@ function appendMovies(m){
             document.getElementById("movies").style.display = "none";
             display(name,birth_year,gender,hair_color,mass,height,eye_color)};
         
-    
+        let movies_div=document.getElementById("movies");
        p.append(p2,p1);
        movies_div.append(p);
       
